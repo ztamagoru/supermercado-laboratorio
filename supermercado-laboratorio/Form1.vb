@@ -141,4 +141,52 @@
         End If
     End Sub
 
+    Private Sub pagarcaja1_Click(sender As Object, e As EventArgs) Handles pagarcaja1.Click
+        If caja1.Items.Count = 0 Then
+            MessageBox.Show("La caja actualmente se encuentra vacía.",
+                            "Error",
+                             MessageBoxButtons.OK)
+        Else
+            Sgarage.Push(Qcaja1.Dequeue())
+
+            listrefresh()
+        End If
+    End Sub
+
+    Private Sub pagarcaja2_Click(sender As Object, e As EventArgs) Handles pagarcaja2.Click
+        If caja2.Items.Count = 0 Then
+            MessageBox.Show("La caja actualmente se encuentra vacía.",
+                            "Error",
+                             MessageBoxButtons.OK)
+        Else
+            Sgarage.Push(Qcaja2.Dequeue())
+
+            listrefresh()
+        End If
+    End Sub
+
+    Private Sub pagarcaja3_Click(sender As Object, e As EventArgs) Handles pagarcaja3.Click
+        If caja3.Items.Count = 0 Then
+            MessageBox.Show("La caja actualmente se encuentra vacía.",
+                            "Error",
+                             MessageBoxButtons.OK)
+        Else
+            Sgarage.Push(Qcaja3.Dequeue())
+
+            listrefresh()
+        End If
+    End Sub
+
+    Private Sub salir_Click(sender As Object, e As EventArgs) Handles salir.Click
+        If garage.Items.Count = 0 Then
+            MessageBox.Show("El garage actualmente se encuentra vacío.",
+                            "Error",
+                             MessageBoxButtons.OK)
+        Else
+            Sgarage.Pop()
+
+            listrefresh()
+        End If
+    End Sub
+
 End Class

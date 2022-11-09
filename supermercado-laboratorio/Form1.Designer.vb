@@ -49,7 +49,7 @@ Partial Class Form1
         'pagarcaja1
         '
         Me.pagarcaja1.Font = New System.Drawing.Font("Segoe UI Semilight", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.pagarcaja1.Location = New System.Drawing.Point(54, 29)
+        Me.pagarcaja1.Location = New System.Drawing.Point(54, 26)
         Me.pagarcaja1.Name = "pagarcaja1"
         Me.pagarcaja1.Size = New System.Drawing.Size(90, 32)
         Me.pagarcaja1.TabIndex = 0
@@ -61,7 +61,7 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI Semilight", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Sienna
-        Me.Label1.Location = New System.Drawing.Point(69, 63)
+        Me.Label1.Location = New System.Drawing.Point(69, 60)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(61, 28)
         Me.Label1.TabIndex = 5
@@ -72,7 +72,7 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI Semilight", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Sienna
-        Me.Label2.Location = New System.Drawing.Point(435, 63)
+        Me.Label2.Location = New System.Drawing.Point(435, 60)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(64, 28)
         Me.Label2.TabIndex = 6
@@ -83,7 +83,7 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI Semilight", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Sienna
-        Me.Label3.Location = New System.Drawing.Point(251, 63)
+        Me.Label3.Location = New System.Drawing.Point(251, 60)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(64, 28)
         Me.Label3.TabIndex = 7
@@ -92,7 +92,7 @@ Partial Class Form1
         'pagarcaja2
         '
         Me.pagarcaja2.Font = New System.Drawing.Font("Segoe UI Semilight", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.pagarcaja2.Location = New System.Drawing.Point(238, 29)
+        Me.pagarcaja2.Location = New System.Drawing.Point(238, 26)
         Me.pagarcaja2.Name = "pagarcaja2"
         Me.pagarcaja2.Size = New System.Drawing.Size(90, 32)
         Me.pagarcaja2.TabIndex = 2
@@ -102,7 +102,7 @@ Partial Class Form1
         'pagarcaja3
         '
         Me.pagarcaja3.Font = New System.Drawing.Font("Segoe UI Semilight", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.pagarcaja3.Location = New System.Drawing.Point(422, 29)
+        Me.pagarcaja3.Location = New System.Drawing.Point(422, 26)
         Me.pagarcaja3.Name = "pagarcaja3"
         Me.pagarcaja3.Size = New System.Drawing.Size(90, 32)
         Me.pagarcaja3.TabIndex = 4
@@ -112,9 +112,9 @@ Partial Class Form1
         'salir
         '
         Me.salir.Font = New System.Drawing.Font("Segoe UI Semilight", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.salir.Location = New System.Drawing.Point(589, 24)
+        Me.salir.Location = New System.Drawing.Point(589, 26)
         Me.salir.Name = "salir"
-        Me.salir.Size = New System.Drawing.Size(125, 56)
+        Me.salir.Size = New System.Drawing.Size(125, 83)
         Me.salir.TabIndex = 6
         Me.salir.Text = "Cliente salió del garage"
         Me.salir.UseVisualStyleBackColor = True
@@ -122,7 +122,7 @@ Partial Class Form1
         'llegarcaja1
         '
         Me.llegarcaja1.Font = New System.Drawing.Font("Segoe UI Semilight", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.llegarcaja1.Location = New System.Drawing.Point(54, 418)
+        Me.llegarcaja1.Location = New System.Drawing.Point(54, 415)
         Me.llegarcaja1.Name = "llegarcaja1"
         Me.llegarcaja1.Size = New System.Drawing.Size(90, 32)
         Me.llegarcaja1.TabIndex = 1
@@ -132,7 +132,7 @@ Partial Class Form1
         'llegarcaja2
         '
         Me.llegarcaja2.Font = New System.Drawing.Font("Segoe UI Semilight", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.llegarcaja2.Location = New System.Drawing.Point(238, 418)
+        Me.llegarcaja2.Location = New System.Drawing.Point(238, 415)
         Me.llegarcaja2.Name = "llegarcaja2"
         Me.llegarcaja2.Size = New System.Drawing.Size(90, 32)
         Me.llegarcaja2.TabIndex = 3
@@ -143,7 +143,7 @@ Partial Class Form1
         '
         Me.llegarcaja3.Enabled = False
         Me.llegarcaja3.Font = New System.Drawing.Font("Segoe UI Semilight", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.llegarcaja3.Location = New System.Drawing.Point(422, 418)
+        Me.llegarcaja3.Location = New System.Drawing.Point(422, 415)
         Me.llegarcaja3.Name = "llegarcaja3"
         Me.llegarcaja3.Size = New System.Drawing.Size(90, 32)
         Me.llegarcaja3.TabIndex = 5
@@ -155,7 +155,7 @@ Partial Class Form1
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI Semilight", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Sienna
-        Me.Label4.Location = New System.Drawing.Point(32, 476)
+        Me.Label4.Location = New System.Drawing.Point(32, 471)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(115, 21)
         Me.Label4.TabIndex = 14
@@ -167,7 +167,7 @@ Partial Class Form1
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox1.Font = New System.Drawing.Font("Segoe UI Semilight", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.ForeColor = System.Drawing.Color.Sienna
-        Me.TextBox1.Location = New System.Drawing.Point(154, 475)
+        Me.TextBox1.Location = New System.Drawing.Point(154, 472)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(283, 22)
         Me.TextBox1.TabIndex = 15
@@ -175,7 +175,7 @@ Partial Class Form1
         'abrircaja
         '
         Me.abrircaja.Font = New System.Drawing.Font("Segoe UI Semilight", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.abrircaja.Location = New System.Drawing.Point(589, 437)
+        Me.abrircaja.Location = New System.Drawing.Point(589, 434)
         Me.abrircaja.Name = "abrircaja"
         Me.abrircaja.Size = New System.Drawing.Size(125, 56)
         Me.abrircaja.TabIndex = 16
@@ -191,7 +191,7 @@ Partial Class Form1
         Me.caja1.FormattingEnabled = True
         Me.caja1.HorizontalScrollbar = True
         Me.caja1.ItemHeight = 17
-        Me.caja1.Location = New System.Drawing.Point(30, 115)
+        Me.caja1.Location = New System.Drawing.Point(30, 126)
         Me.caja1.Name = "caja1"
         Me.caja1.Size = New System.Drawing.Size(138, 272)
         Me.caja1.TabIndex = 17
@@ -206,7 +206,7 @@ Partial Class Form1
         Me.caja2.FormattingEnabled = True
         Me.caja2.HorizontalScrollbar = True
         Me.caja2.ItemHeight = 17
-        Me.caja2.Location = New System.Drawing.Point(214, 115)
+        Me.caja2.Location = New System.Drawing.Point(214, 126)
         Me.caja2.Name = "caja2"
         Me.caja2.Size = New System.Drawing.Size(138, 272)
         Me.caja2.TabIndex = 18
@@ -221,7 +221,7 @@ Partial Class Form1
         Me.caja3.FormattingEnabled = True
         Me.caja3.HorizontalScrollbar = True
         Me.caja3.ItemHeight = 17
-        Me.caja3.Location = New System.Drawing.Point(398, 115)
+        Me.caja3.Location = New System.Drawing.Point(398, 126)
         Me.caja3.Name = "caja3"
         Me.caja3.Size = New System.Drawing.Size(138, 272)
         Me.caja3.TabIndex = 19
@@ -236,7 +236,7 @@ Partial Class Form1
         Me.garage.FormattingEnabled = True
         Me.garage.HorizontalScrollbar = True
         Me.garage.ItemHeight = 17
-        Me.garage.Location = New System.Drawing.Point(582, 115)
+        Me.garage.Location = New System.Drawing.Point(582, 126)
         Me.garage.Name = "garage"
         Me.garage.Size = New System.Drawing.Size(138, 272)
         Me.garage.TabIndex = 20
@@ -248,7 +248,7 @@ Partial Class Form1
         Me.rbefectivo.Checked = True
         Me.rbefectivo.Font = New System.Drawing.Font("Segoe UI Semilight", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rbefectivo.ForeColor = System.Drawing.Color.Sienna
-        Me.rbefectivo.Location = New System.Drawing.Point(452, 476)
+        Me.rbefectivo.Location = New System.Drawing.Point(452, 473)
         Me.rbefectivo.Name = "rbefectivo"
         Me.rbefectivo.Size = New System.Drawing.Size(70, 21)
         Me.rbefectivo.TabIndex = 21
@@ -261,7 +261,7 @@ Partial Class Form1
         Me.rbtarjeta.AutoSize = True
         Me.rbtarjeta.Font = New System.Drawing.Font("Segoe UI Semilight", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rbtarjeta.ForeColor = System.Drawing.Color.Sienna
-        Me.rbtarjeta.Location = New System.Drawing.Point(452, 508)
+        Me.rbtarjeta.Location = New System.Drawing.Point(452, 505)
         Me.rbtarjeta.Name = "rbtarjeta"
         Me.rbtarjeta.Size = New System.Drawing.Size(64, 21)
         Me.rbtarjeta.TabIndex = 22
@@ -273,7 +273,7 @@ Partial Class Form1
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI Semilight", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Sienna
-        Me.Label5.Location = New System.Drawing.Point(403, 93)
+        Me.Label5.Location = New System.Drawing.Point(403, 90)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(129, 19)
         Me.Label5.TabIndex = 23
@@ -284,7 +284,7 @@ Partial Class Form1
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Segoe UI Semilight", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Sienna
-        Me.Label6.Location = New System.Drawing.Point(229, 93)
+        Me.Label6.Location = New System.Drawing.Point(229, 90)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(108, 19)
         Me.Label6.TabIndex = 24
@@ -295,7 +295,7 @@ Partial Class Form1
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Segoe UI Semilight", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Sienna
-        Me.Label7.Location = New System.Drawing.Point(45, 93)
+        Me.Label7.Location = New System.Drawing.Point(45, 90)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(108, 19)
         Me.Label7.TabIndex = 25
